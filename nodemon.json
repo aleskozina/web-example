@@ -1,0 +1,9 @@
+{
+    "port": "4500",
+    "watch": ["./backend/app"],
+    "ignore": "./backend/build",
+    "ext": "ts",
+    "exec": "tsc -p ./backend && node ./backend/build/server.js",
+    "verbose": true,
+    "restartable": "rs"
+}

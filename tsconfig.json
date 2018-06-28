@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "jsx": "preserve",
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "removeComments": false,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "baseUrl": ".",
+      "lib": [
+        "dom",
+        "es2016"
+      ]
+    }
+  }

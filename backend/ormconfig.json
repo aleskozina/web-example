@@ -1,0 +1,15 @@
+{
+    "type": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "username": "SA",
+    "password": "P4ssw0rd",
+    "database": "web-example",
+    "entities": ["src/**/**.entity{.ts,.js}"],
+    "synchronize": true,
+    "migrationsTableName": "migrations",
+    "migrations": ["database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "database/migrations"
+    }
+  }
