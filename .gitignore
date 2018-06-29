@@ -6,3 +6,4 @@
 
 # Build
 frontend/.next
+backend/dist

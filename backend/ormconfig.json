@@ -6,7 +6,7 @@
     "password": "P4ssw0rd",
     "database": "web-example",
     "entities": ["src/**/**.entity{.ts,.js}"],
-    "synchronize": true,
+    "synchronize": false,
     "migrationsTableName": "migrations",
     "migrations": ["database/migrations/*.ts"],
     "cli": {

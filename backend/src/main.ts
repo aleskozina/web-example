@@ -4,7 +4,7 @@ import { INestApplication } from '@nestjs/common';
 
 async function bootstrap(): Promise<void> {
   const app: INestApplication = await NestFactory.create(AppModule);
-  await app.listen(3000);
+  await app.listen(3344);
 }
 
 bootstrap();
